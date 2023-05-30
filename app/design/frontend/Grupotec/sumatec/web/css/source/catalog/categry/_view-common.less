@@ -14,13 +14,45 @@
             } 
         }
 
-        .image-price-fugaces {
-            display: none;
+        .discount-rate {
+            position: absolute;
+            z-index: 2;
+            right: 8px;
+            top: 20px;
+            text-align: center;
+            font-size: 12px;
+            background: @color-segundary;
+            width: 50px;
+            height: 25px;
+            padding: 4px;
+            box-sizing: border-box;
+            color: @color-white;
+        }
+
+        img.image-price-fugaces {
+            display: block;
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            max-width: 100px;
+            top: 10px;
+            left: 5px;
+            z-index: 2;
+        }
+
+        .products-grid .product-item {
+            width: ~"calc((100% - 8%) / 2)";
+
+            &:nth-child(3n + 1) {
+                margin-left: 2%; 
+            }
         }
 
         li.item.product {
             border: .5px solid @color-grey;
             position: relative;
+            height: 440px;
+            margin: 0 2% 22px;
 
             .page-products .product-item-info {
                 width: 100%;
@@ -32,7 +64,7 @@
                 padding: 0 10px;
             }
 
-            span.marca {
+            .marca {
                 color: @color-black;
                 text-transform: uppercase;
                 font-weight: 700;
@@ -72,33 +104,20 @@
                 position: absolute;
                 left: -1px;
                 bottom: 0;
+                font-size: 12px;
                 border-radius: 0;
                 background: transparent;
                 color: @color-segundary;
                 text-transform: uppercase;
                 border: 1px solid @color-segundary;
-            }
 
-            .action.primary:hover {
-                color: @color-white;
-                background: @color-segundary;
-                transition: all;
-                transition-duration: 1s;
+                &:hover {
+                    color: @color-white;
+                    background: @color-segundary;
+                    transition: all;
+                    transition-duration: .5s;
+                }
             }
-        }
-    }
-
-    //
-    // Styles Category Precios Fugaces 
-    // ________________________________
-    .catalog-category-view.category-precios-fugaces {
-        img.image-price-fugaces {
-            display: block;
-            position: absolute;
-            z-index: 1;
-            width: 60px;
-            top: 10px;
-            left: 10px;
         }
     }
 }

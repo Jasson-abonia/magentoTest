@@ -11,13 +11,21 @@
         .product.attribute.sku,
         .product-reviews-summary.empty,
         .price-label,
-        .product-social-links {
+        .product-social-links,
+        .page-title-wrapper.product {
             display: none;
         }
 
+        .columns {
+            margin: 50px 0 0;
+        }
+
         .product.media {
-            .image-price-fugaces {
-                display: none;
+            img.image-price-fugaces {
+                position: absolute;
+                z-index: 1;
+                width: 100%;
+                max-width: 150px;
             }
         }
 
@@ -27,18 +35,6 @@
             flex-wrap: wrap;
             align-items: center;
 
-            > .field {
-                margin: 0;
-
-                .label {
-                    display: none;
-                }
-            }
-
-            .label {
-                display: none;
-            }
-
             .actions {
                 width: 100%;
                 max-width: 270px;
@@ -47,20 +43,55 @@
                 .action.primary {
                     width: 100%;
                     border-radius: 0;
-                    background: @color-segundary;
-                    color: @color-white;
+                    background: transparent;
+                    color: @color-segundary;
                     height: 50px;
                     text-transform: uppercase;
                     border: 1px solid @color-segundary;
+
+                    &:hover {
+                        color: @color-white;
+                        background: @color-segundary;
+                        transition: all;
+                        transition-duration: .5s;
+                    }
                 }
             }
         }
 
-        span.marca,
+        .marca,
         .attribute.sku {
             color: @color-black;
             text-transform: uppercase;
             font-weight: 700;
+        }
+
+        .marca {
+            font-size: 18px;
+        }
+
+        p.product-name {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .gallery-placeholder {
+            position: relative;
+        }
+
+        .discount-rate {
+            position: absolute;
+            z-index: 2;
+            right: 8px;
+            top: 20px;
+            text-align: center;
+            font-size: 12px;
+            background: @color-segundary;
+            width: 50px;
+            height: 25px;
+            padding: 4px;
+            box-sizing: border-box;
+            color: @color-white;
         }
 
         .attribute.sku {
@@ -151,29 +182,23 @@
                     background: @color-segundary;
                     color: @color-white;
                     transition: all;
-                    transition-duration: 1s;
+                    transition-duration: .5s;
                 }
             }
+
+            .fieldset > .field {
+                margin: 0;
+
+                > .label {
+                    display: none;
+                }
+            } 
         }
 
         .fotorama__thumb-border {
             border: none;
             border-bottom: 1.5px solid @color-segundary;
             background: transparent;
-        }
-    }
-
-    //
-    // Styles Product View Item Category Precios Fugaces 
-    // ________________________________
-    .catalog-product-view.category-precios-fugaces {
-        .product.media {
-            img.image-price-fugaces {
-                display: block;
-                position: absolute;
-                z-index: 1;
-                width: 130px;
-            }
         }
     }
 }

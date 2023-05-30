@@ -6,7 +6,6 @@
 ?>
 <?php /* @var $block \Magento\Catalog\Block\Product\View\AbstractView */?>
 <?php $_product = $block->getProduct() ?>
-<?php $product = $block->getProduct() ?>
 
 <?php if ($block->displayProductStockStatus()) :?>
     <?php if ($_product->isAvailable()) :?>
@@ -19,5 +18,8 @@
         </div>
     <?php endif; ?>
 <?php endif; ?>
-
-<span class="marca"><?= __('Marca') ?> | <?php echo $product->getResource()->getAttribute('marca')->getFrontend()->getValue($product) ?></span>
+<strong class="marca">
+    <?php /* @escapeNotVerified */ echo  $_product->getResource()->getAttribute('marca')->getStoreLabel()." | ";?>
+    <?php /* @escapeNotVerified */ echo  $_product->getResource()->getAttribute('marca')->getFrontend()->getValue($_product);?>
+</strong>
+<p class="product-name"><?php /* @escapeNotVerified */ echo $_product->getName() ?></p>

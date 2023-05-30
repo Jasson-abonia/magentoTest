@@ -1,0 +1,35 @@
+//
+//  Desktop
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__l) {
+    .catalog-category-view {
+        //
+        // Styles Product View Item 
+        // ________________________________
+        li.item.product {
+            height: 440px;
+            margin: 0 1% 22px;
+
+            .action.primary {
+                font-size: 14px;
+            }
+        } 
+
+        .column.main{
+            .products-grid {
+                .product-item {
+                    width: ~"calc((100% - 8%) / 4)";
+        
+                    &:nth-child(3n + 1) {
+                        margin-left: 1%; 
+                    }
+
+                    &:nth-child(4n + 1) {
+                        margin-left: 1%; 
+                    }
+                }  
+            } 
+        }
+    }
+}

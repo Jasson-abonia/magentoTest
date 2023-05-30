@@ -5,15 +5,12 @@
  */
 
 /** @var $block \Magento\Catalog\Block\Product\View */
-
-$product = $block->getProduct();
-$url_data_sheet = $product->getResource()->getAttribute('ficha_tecnica')->getFrontend()->getValue($product);
-$url_manual = $product->getResource()->getAttribute('manual_de_uso')->getFrontend()->getValue($product);
-
 ?>
 
 <?php $_product = $block->getProduct(); ?>
 <?php $buttonTitle = __('Add to Cart'); ?>
+<?php $url_data_sheet = $_product->getResource()->getAttribute('ficha_tecnica')->getFrontend()->getValue($_product); ?>
+<?php $url_manual = $_product->getResource()->getAttribute('manual_de_uso')->getFrontend()->getValue($_product); ?>
 <?php if ($_product->isSaleable()) :?>
 <div class="bbox-tocart">
     <div class="fieldset">
@@ -51,12 +48,15 @@ $url_manual = $product->getResource()->getAttribute('manual_de_uso')->getFronten
 <?php endif; ?>
 <span class="attribute sku"><?= __('Sku')?> <p><?=$_product->getSku()?></p></span>
 <span class="product-additional-info">
-    <a class="data-sheet" href="<?= $url_data_sheet ?>" target="_blank" rel="noopener noreferrer"><?=__('Ficha tecnica')?></a>
-    <a class="manual" href="<?= $url_manual ?>" target="_blank" rel="noopener noreferrer"><?=__('Manual')?></a>
-    <p class="price"><?= $product->getFinalPrice() ?></p>
+    
+   
+    <?php if ($url_data_sheet): ?>
+        <a class="data-sheet" href="<?= $url_data_sheet ?>" target="_blank" rel="noopener noreferrer"><?=__('Ficha tecnica')?></a>
+    <?php endif; ?>
+    <?php if ($url_manual): ?>
+        <a class="manual" href="<?= $url_manual ?>" target="_blank" rel="noopener noreferrer"><?=__('Manual')?></a>
+    <?php endif; ?>
 </span>
-
-
 <script type="text/x-magento-init">
     {
         "*": {

@@ -8,8 +8,13 @@
  * Product media data template
  *
  * @var $block \Magento\Catalog\Block\Product\View\Gallery
+ * @var $block \Magento\Catalog\Block\Product\View\AbstractView 
  */
 ?>
+
+<?php $_product = $block->getProduct() ?>
+<?php $productCategoryIds = $_product->getCategoryIds(); ?>
+<?php $specialCategoryId = 4; ?>
 
 <?php
 $images = $block->getGalleryImages()->getItems();
@@ -27,9 +32,19 @@ $mainImageData = $mainImage ?
     $helper->getDefaultPlaceholderUrl('image');
 
 ?>
+<?php
+$price = floatval($_product->getPrice());
+$specialPrice = floatval($_product->getFinalPrice());
+$discount = round(($price - $specialPrice)  / $price * 100); 
+?>
 
 <div class="gallery-placeholder _block-content-loading" data-gallery-role="gallery-placeholder">
-    <img class="image-price-fugaces" src="<?php echo $this->getViewFileUrl('images/image-price-fugaces.jpeg'); ?>" alt="image-price-fugaces">
+    <?php if (in_array($specialCategoryId,$productCategoryIds)): ?>
+        <img class="image-price-fugaces" src="<?php echo $this->getViewFileUrl('images/image-price-fugaces.png'); ?>" alt="image-price-fugaces">
+    <?php endif; ?>
+    <?php if ($price !== $specialPrice): ?>
+        <span class="discount-rate"><?= "-" . $discount . "%" ?></span>
+    <?php endif; ?>
     <img
         alt="main product photo"
         class="gallery-placeholder__image"

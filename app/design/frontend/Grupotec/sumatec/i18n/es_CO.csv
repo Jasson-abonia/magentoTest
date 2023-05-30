@@ -103,8 +103,8 @@
 "SKU","Unidad de mantenimiento de existencias (SKU)",module,Magento_AdvancedCheckout
 "Recently Compared Products (%1)","Productos comparados recientemente (%1)",module,Magento_AdvancedCheckout
 "Recently Viewed Products (%1)","Productos vistos recientemente (%1)",module,Magento_AdvancedCheckout
-"Add to Shopping Cart by SKU","Añadir al carrito de compras por SKU",module,Magento_AdvancedCheckout
-"Add to Shopping Cart","Añadir al carrito de compras",module,Magento_AdvancedCheckout
+"Add to Shopping Cart by SKU","Agregar al carrito de compras por SKU",module,Magento_AdvancedCheckout
+"Add to Shopping Cart","Agregar al carrito de compras",module,Magento_AdvancedCheckout
 "Wish List (%1)","Lista de deseos (%1)",module,Magento_AdvancedCheckout
 "Apply","Aplicar",module,Magento_AdvancedCheckout
 "Configure","Configurar",module,Magento_AdvancedCheckout
@@ -196,7 +196,7 @@
 "Edit","Editar",module,Magento_AdvancedCheckout
 "Remove item","Quitar artículo",module,Magento_AdvancedCheckout
 "Products Requiring Attention","Artículos que requieren su atención",module,Magento_AdvancedCheckout
-"Add to Cart","Añadir al carrito",module,Magento_AdvancedCheckout
+"Add to Cart","Agregar al carrito",module,Magento_AdvancedCheckout
 "Sku","SKU",module,Magento_AdvancedCheckout
 "File","Archivo",module,Magento_AdvancedCheckout
 "File extensions allowed: .csv","Extensiones de archivo permitidas: .csv",module,Magento_AdvancedCheckout
@@ -2291,7 +2291,7 @@ y el descriptor del producto puede ser de hasta 18, 14 o 9 caracteres respectiva
 "Compare Products","Comparar productos",module,Magento_Catalog
 "Print This Page","Imprimir esta página",module,Magento_Catalog
 "Remove Product","Eliminar artículo",module,Magento_Catalog
-"Add to Cart","Añadir al carrito",module,Magento_Catalog
+"Add to Cart","Agregar al carrito",module,Magento_Catalog
 "In stock","Disponible",module,Magento_Catalog
 "Out of stock","Ver más",module,Magento_Catalog
 "Add to Wish List","Añadir a la Lista de Deseos",module,Magento_Catalog
@@ -2849,7 +2849,7 @@ Tiempo en segundos entre actualizaciones de widgets.,module,Magento_Catalog
 "Category Permissions","Permisos de categoría",module,Magento_CatalogPermissions
 "Browsing Category","Navegando por categoría",module,Magento_CatalogPermissions
 "Display Product Prices","Mostrar precios de los artículos",module,Magento_CatalogPermissions
-"Add to Cart","Añadir al carrito",module,Magento_CatalogPermissions
+"Add to Cart","Agregar al carrito",module,Magento_CatalogPermissions
 "Yes, for Everyone","Sí, para todos",module,Magento_CatalogPermissions
 "Yes, for Specified Customer Groups","Sí, para grupos de cliente especificados",module,Magento_CatalogPermissions
 "No","No",module,Magento_CatalogPermissions
@@ -2874,7 +2874,7 @@ Tiempo en segundos entre actualizaciones de widgets.,module,Magento_Catalog
 "Allow Browsing Category","Permite navegación de categoría",module,Magento_CatalogPermissions
 "Customer Groups","Grupos de cliente",module,Magento_CatalogPermissions
 "Landing Page","Página de destino",module,Magento_CatalogPermissions
-"Allow Adding to Cart","Permite añadir al carrito",module,Magento_CatalogPermissions
+"Allow Adding to Cart","Permite Agregar al carrito",module,Magento_CatalogPermissions
 "Disallow Catalog Search By","No permitir la búsqueda de catálogo por",module,Magento_CatalogPermissions
 "Catalog Category Permissions","Permisos del catálogo de artículos",module,Magento_CatalogPermissions
 "Indexed permissions for categories","Permisos indezados para categorías",module,Magento_CatalogPermissions
@@ -3175,7 +3175,7 @@ Tiempo en segundos entre actualizaciones de widgets.,module,Magento_Catalog
 "Product Attribute","Atributos del artículo",module,Magento_CatalogWidget
 "SKU","Unidad de mantenimiento de existencias (SKU)",module,Magento_CatalogWidget
 "Please choose a condition to add.","Por favor, elige una condición para añadir.",module,Magento_CatalogWidget
-"Add to Cart","Añadir al carrito",module,Magento_CatalogWidget
+"Add to Cart","Agregar al carrito",module,Magento_CatalogWidget
 "In stock","Disponible",module,Magento_CatalogWidget
 "Out of stock","Ver más",module,Magento_CatalogWidget
 "Add to Wish List","Añadir a la Lista de Deseos",module,Magento_CatalogWidget
@@ -7090,7 +7090,7 @@ Plantilla de correo electrónico elegida en función de la devolución del tema 
 "Please enter at least 2 letters of the last name.","Por favor introduzca al menos 2 letras del apellido.",module,Magento_GiftRegistry
 "Please enter a valid email address.","Por favor, ingrese una dirección de correo electrónico válida.",module,Magento_GiftRegistry
 "Please enter a gift registry ID.","Introduzca un ID de registro de regalo.",module,Magento_GiftRegistry
-"Please enter the quantity of items to add to cart.","Por favor introduzca la cantidad de elementos a añadir al carrito.",module,Magento_GiftRegistry
+"Please enter the quantity of items to add to cart.","Por favor introduzca la cantidad de elementos a Agregar al carrito.",module,Magento_GiftRegistry
 "We can't add this item to your shopping cart right now.","No podemos añadir este artículo a su carrito de compras ahora mismo.",module,Magento_GiftRegistry
 "Gift Registry Info","Información de registro de regalo",module,Magento_GiftRegistry
 "Please enter the ""%1"".","Por favor introduzca ""%1"".",module,Magento_GiftRegistry
@@ -7216,7 +7216,7 @@ Plantilla de correo electrónico elegida en función de la devolución del tema 
 "Search By","Buscar por",module,Magento_GiftRegistry
 "Please enter at least two letters.","Introduce al menos 2 caracteres.",module,Magento_GiftRegistry
 "Unit Price","Precio Unitario",module,Magento_GiftRegistry
-"Add to Cart","Añadir al carrito",module,Magento_GiftRegistry
+"Add to Cart","Agregar al carrito",module,Magento_GiftRegistry
 "Gift Registry created at %store_name","Registro de regalo creado en %store_name",module,Magento_GiftRegistry
 "%name,","%name,",module,Magento_GiftRegistry
 "You have successfully created the new gift registry ""%registry_name"".","Has creado exitosamente el nuevo registro de regalo ""%registry_name"".",module,Magento_GiftRegistry
@@ -8186,7 +8186,7 @@ esto no afectará al filtro de precios.",module,Magento_LayeredNavigation
 "You will see the order total before you submit the order.","Podrás ver el total de la orden antes de enviar el pedido.",module,Magento_Msrp
 "Price","Precio",module,Magento_Msrp
 "Actual Price","Precio real",module,Magento_Msrp
-"Add to Cart","Añadir al carrito",module,Magento_Msrp
+"Add to Cart","Agregar al carrito",module,Magento_Msrp
 "Minimum Advertised Price","Precio mínimo anunciado",module,Magento_Msrp
 "Enable MAP","Habilitar MAP",module,Magento_Msrp
 "Display Actual Price","Mostrar precio actual",module,Magento_Msrp
@@ -8262,8 +8262,8 @@ esto no afectará al filtro de precios.",module,Magento_LayeredNavigation
 "Name","Nombre",module,Magento_MultipleWishlist
 "Updated","Actualizado",module,Magento_MultipleWishlist
 "Wish List Items","Elementos de la lista de deseos",module,Magento_MultipleWishlist
-"You must select items to add to the cart.","Debe seleccionar artículos para añadir al carrito.",module,Magento_MultipleWishlist
-"Add to Cart","Añadir al carrito",module,Magento_MultipleWishlist
+"You must select items to add to the cart.","Debe seleccionar artículos para Agregar al carrito.",module,Magento_MultipleWishlist
+"Add to Cart","Agregar al carrito",module,Magento_MultipleWishlist
 "Back","Atrás",module,Magento_MultipleWishlist
 "Add to:","Añadir a:",module,Magento_MultipleWishlist
 "Create New Wish List","Crear nueva lista de deseos",module,Magento_MultipleWishlist
@@ -10144,7 +10144,7 @@ offered and the currency offered by the merchant is USD.",module,Magento_Paypal
 "Order by SKU","Comprar por SKU",module,Magento_QuickOrder
 "Enter SKU or Product Name","Escriba nombre de producto o SKU",module,Magento_QuickOrder
 "Qty","Cantidad",module,Magento_QuickOrder
-"Add to Cart","Añadir al carrito",module,Magento_QuickOrder
+"Add to Cart","Agregar al carrito",module,Magento_QuickOrder
 "Remove Row","Remover fila",module,Magento_QuickOrder
 " product(s) require(s) your attention."," producto(s) requiere(n) su atención.",module,Magento_QuickOrder
 "Enable Quick Order","Habilitar Pedido Rápida",module,Magento_QuickOrder
@@ -10840,7 +10840,7 @@ target=""_blank""> DevDocs' Información de la versión</a>.,module,Magento_Rele
 "Show Report For:","Bericht anzeigen für:",module,Magento_Reports
 "All Websites","Todos sitios web",module,Magento_Reports
 "Recently Viewed","Vistos recientemente",module,Magento_Reports
-"Add to Cart","Añadir al carrito",module,Magento_Reports
+"Add to Cart","Agregar al carrito",module,Magento_Reports
 "In stock","Disponible",module,Magento_Reports
 "Out of stock","Ver más",module,Magento_Reports
 "Add to Wish List","Añadir a la Lista de Deseos",module,Magento_Reports
@@ -10966,7 +10966,7 @@ target=""_blank""> DevDocs' Información de la versión</a>.,module,Magento_Rele
 "item","artículo",module,Magento_RequisitionList
 "in requisition list","en la lista de reposición",module,Magento_RequisitionList
 "Contact Us","Contáctenos",module,Magento_RequisitionList
-"Add to Cart","Añadir al carrito",module,Magento_RequisitionList
+"Add to Cart","Agregar al carrito",module,Magento_RequisitionList
 "Update List","Actualizar lista",module,Magento_RequisitionList
 "Delete Requisition List","Eliminar Lista de Reposición",module,Magento_RequisitionList
 "You have no items in this requisition list.","No tienen ningún elemento en esta lista de reposición.",module,Magento_RequisitionList
@@ -12409,7 +12409,7 @@ target=""_blank""> DevDocs' Información de la versión</a>.,module,Magento_Rele
 "View All","Ver todo",module,Magento_Sales
 "Gift Message for This Order","Regalo mensaje para este pedido",module,Magento_Sales
 "Recently Ordered","Recientemente ordenado",module,Magento_Sales
-"Add to Cart","Añadir al carrito",module,Magento_Sales
+"Add to Cart","Agregar al carrito",module,Magento_Sales
 "Search","Buscar",module,Magento_Sales
 "Credit memo for your %store_name order","Credit memo para su orden en %store_name",module,Magento_Sales
 "%name,","%name,",module,Magento_Sales
@@ -16082,7 +16082,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Add to Wish List","Añadir a la Lista de Deseos",module,Magento_Wishlist
 "View Product","Vista del artículo",module,Magento_Wishlist
 "Qty","Cantidad",module,Magento_Wishlist
-"Add to Cart","Añadir al carrito",module,Magento_Wishlist
+"Add to Cart","Agregar al carrito",module,Magento_Wishlist
 "Availability","Disponibilidad",module,Magento_Wishlist
 "In stock","Disponible",module,Magento_Wishlist
 "Out of stock","Ver más",module,Magento_Wishlist
@@ -16639,12 +16639,3 @@ or in,o en,module,Algolia_AlgoliaSearch
 "Store Home","Tienda del hogar"
 "My Account","Mi cuenta"
 "Show Password","Mostrar contraseña"
-"1 - 2 years of experience","1 - 2 años de experiencia"
-"expertis","Expertos"
-"pack","Paquete"
-"Demo 40h (1 week)","Demostración 40h (1 semana)"
-"160h (1 month) +US$ 1.450,00","160h (1 mes) +US$ 1.450,00"
-"320h (2 month) +US$ 4.450,00","320h (2 meses) +US$ 4.450,00"
-"640h (6 month) +US$ 8.450,00","640h (6 meses) +US$ 8.450,00"
-"Document","Documento"
-"",""
